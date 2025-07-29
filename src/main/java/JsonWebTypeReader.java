@@ -63,7 +63,7 @@ public class JsonWebTypeReader {
         return null; // Eşleşme yoksa null döner
     }
 
-    private   String getWebTypeValue(String text){
+    private  String getWebTypeValue(String text){
         String value="";
         try {
             String[] list=text.split("@");
