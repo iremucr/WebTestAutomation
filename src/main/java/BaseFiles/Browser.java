@@ -1,6 +1,8 @@
+package BaseFiles;
+
 public class Browser {
 
-    public static BaseBrowser prepareROWSER(){
+    public static BaseBrowser prepareBrowser(){
         String browser=TestBase.BROWSER.toLowerCase();
         int value=0;
 

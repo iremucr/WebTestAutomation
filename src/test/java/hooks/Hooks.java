@@ -1,5 +1,6 @@
 package hooks;
 
+import BaseFiles.TestBase;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
@@ -11,14 +12,13 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.get("https://demoqa.com/links");
-        driver.manage().window().maximize();
+        TestBase testBase=new TestBase();
+        testBase.beforeMethod();
     }
 
     @After
     public void tearDown() {
-        driver.quit();
+        TestBase testBase=new TestBase();
+        testBase.afterMethod();
     }
 }

@@ -1,9 +1,9 @@
 {
   "testData": [
     {
-      "key": "spinner",
+      "key": "elementsHeader",
       "webType": "xpath",
-      "webValue": "//uspinner"
+      "webValue": "//div[@class='header-text' and text()='Elements']"
     },
     {
       "key": "spinner2",

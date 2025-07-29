@@ -1,3 +1,5 @@
+package BaseFiles;
+
 import org.openqa.selenium.WebDriver;
 
 public interface BaseBrowser {

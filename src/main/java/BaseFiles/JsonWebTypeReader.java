@@ -1,3 +1,5 @@
+package BaseFiles;
+
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.openqa.selenium.By;
@@ -63,7 +65,7 @@ public class JsonWebTypeReader {
         return null; // Eşleşme yoksa null döner
     }
 
-    private  String getWebTypeValue(String text){
+    private static String getWebTypeValue(String text){
         String value="";
         try {
             String[] list=text.split("@");
@@ -74,11 +76,11 @@ public class JsonWebTypeReader {
         }
                 return value;
     }
-    private  String getWebValue(String text){
+    private static String getWebValue(String text){
         String value="";
         try {
             String[] list=text.split("@");
-            value=getWebTypeByKey(list[0],list[1]);
+            value=getWebValueByKey(list[0],list[1]);
 
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -86,7 +88,7 @@ public class JsonWebTypeReader {
         return value;
     }
 
-    public By getLocator(String text){
+    public static By getLocator(String text){
         By locator=null;
         try {
            String webType= getWebTypeValue(text);
