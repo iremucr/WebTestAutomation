@@ -1,0 +1,14 @@
+{
+  "testData": [
+    {
+      "key": "spinner",
+      "webType": "xpath",
+      "webValue": "//uspinner"
+    },
+    {
+      "key": "spinner2",
+      "webType": "xpath",
+      "webValue": "//div[contains(@class, 'k-i-loading')]"
+    }
+  ]
+}
