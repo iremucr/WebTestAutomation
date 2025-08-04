@@ -28,7 +28,7 @@ public class TestBase {
 
 
     public void afterMethod(){
-        DriverManager.getDriver().quit();
+    //    DriverManager.getDriver().quit();
     }
 
 

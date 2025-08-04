@@ -9,6 +9,108 @@
       "key": "spinner2",
       "webType": "xpath",
       "webValue": "//div[contains(@class, 'k-i-loading')]"
+    },
+    {
+      "key": "textBoxButton",
+      "webType": "xpath",
+      "webValue": "//span[text()='Text Box']"
+    },
+    {
+      "key": "textBoxFullName",
+      "webType": "xpath",
+      "webValue": "//input[@id='userName']"
+    },
+    {
+      "key": "textBoxEmail",
+      "webType": "xpath",
+      "webValue": "//input[@id='userEmail']"
+    },
+    {
+      "key": "textBoxCurrentAddress",
+      "webType": "xpath",
+      "webValue": "//textarea[@id='currentAddress']"
+    },
+    {
+      "key": "textBoxPermanentAddress",
+      "webType": "xpath",
+      "webValue": "//textarea[@id='permanentAddress']"
+    },
+    {
+      "key": "textBoxSubmitButton",
+      "webType": "xpath",
+      "webValue": "//button[@id='submit']"
+    },
+    {
+      "key": "scrollDown",
+      "webType": "xpath",
+      "webValue": "//button[@id='submit']"
+    },
+    {
+      "key": "radioButtonMenu",
+      "webType": "xpath",
+      "webValue": "//span[text()='Radio Button']"
+    },
+    {
+      "key": "yesRadioButton",
+      "webType": "xpath",
+      "webValue": "//label[@for='yesRadio']"
+    },
+    {
+      "key": "radioResultText",
+      "webType": "xpath",
+      "webValue": "//p[@class='mt-3']/span"
+    },
+
+    {
+      "key": "yesRadioInput",
+      "webType": "xpath",
+      "webValue": "//input[@id='yesRadio']"
+    },
+
+    {
+      "key": "webTablesMenu",
+      "webType": "xpath",
+      "webValue": "//span[text()='Web Tables']"
+    },
+
+    {
+      "key": "deleteCierraButton",
+      "webType": "xpath",
+      "webValue": "//span[@id='delete-record-1']"
+    },
+
+
+    {
+      "key": "cierraRow",
+      "webType": "xpath",
+      "webValue": "//div[@class='rt-tr-group'][.//div[text()='Cierra']]"
+    },
+
+
+    {
+
+      "key": "buttonsMenu",
+      "webType": "xpath",
+      "webValue": "//span[text()='Buttons']"
+
+    },
+
+
+    {
+      "key": "clickMeButton",
+      "webType": "xpath",
+      "webValue": "//button[text()='Click Me']"
+    },
+
+    {
+      "key": "clickMessage",
+      "webType": "xpath",
+      "webValue": "//p[@id='dynamicClickMessage']"
     }
+
+
+
+
+
   ]
 }
